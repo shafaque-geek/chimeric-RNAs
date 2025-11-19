@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hui Li Lab – Validated Chimeric Fusion Transcripts</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-datatables@9.0.0/dist/style.css">
+  <style>
+    body {font-family:"Segoe UI",Arial,sans-serif;margin:40px auto;max-width:1600px;padding:20px;background:#f8f9fa;color:#333;line-height:1.6;}
+    h1 {color:#2c3e50;text-align:center;margin-bottom:10px;}
+    .header p {text-align:center;color:#666;margin:0;}
+    .container {background:white;padding:35px;border-radius:12px;box-shadow:0 8px 30px rgba(0,0,0,0.12);}
+    th {background:#2c7cbe !important;color:white;font-weight:600;}
+    td {vertical-align:top;}
+    a {color:#1a73e8;text-decoration:none;}
+    a:hover {text-decoration:underline;}
+    .dataTable-input {padding:10px 15px;border-radius:8px;border:1px solid #ddd;font-size:15px;}
+    .dataTable-top {margin-bottom:20px;}
+    .updated {text-align:center;color:#27ae60;font-weight:bold;margin-top:15px;}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Hui Li Lab – Experimentally Validated Chimeric Fusion Transcripts</h1>
+    <div class="header">
+      <p>Comprehensive list of validated fusion transcripts (cis- and trans-spliced) from published literature</p>
+      <p class="updated">Last updated: November 2025</p>
+    </div>
+
+    <table id="fusionTable" class="display">
+      <thead>
+        <tr>
+          <th>Fusion Transcript</th>
+          <th>Source Sample / Cell / Tissue</th>
+          <th>Validation Method</th>
+          <th>Reference (Year)</th>
+          <th>Full Paper Link</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>SLC45A3-ELK4</td><td>LNCaP and PC3 prostate cancer cell lines</td><td>RNase protection assay, real-time PCR</td><td>Cancer Discov (2012)</td><td><a href="https://aacrjournals.org/cancerdiscovery/article/2/7/598/3388/Chimeric-Transcript-Generated-by-cis-Splicing-of" target="_blank">Open Paper</a></td></tr>
+        <tr><td>SLC45A3-ELK4</td><td>Prostate cancer metastases</td><td>Real-time PCR (TaqMan probe)</td><td>Cancer Discov (2012)</td><td><a href="https://aacrjournals.org/cancerdiscovery/article/2/7/598/3388/Chimeric-Transcript-Generated-by-cis-Splicing-of" target="_blank">Open Paper</a></td></tr>
+        <tr><td>SLC45A3-ELK4</td><td>Non-malignant prostate tissues</td><td>RT-PCR and cis-SAGe detection</td><td>Trends Cancer (2016)</td><td><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5305119/" target="_blank">Open Paper</a></td></tr>
+        <tr><td>DUS4L-BCAP29</td><td>Non-cancer human tissues (heart to testis)</td><td>RT-PCR, agarose electrophoresis, Sanger sequencing</td><td>Oncotarget (2017)</td><td><a href="https://www.oncotarget.com/article/16329/text/" target="_blank">Open Paper</a></td></tr>
+        <tr><td>DUS4L-BCAP29</td><td>Non-cancer cell lines (MCF10A, Beas2B, 16HBE, HFF, GES-1, RWPE-1)</td><td>RT-PCR, agarose electrophoresis, Sanger sequencing; knockdown for functional role</td><td>Oncotarget (2017)</td><td><a href="https://www.oncotarget.com/article/16329/text/" target="_blank">Open Paper</a></td></tr>
+        <tr><td>JAZF1-SUZ12/JAZF1-JJAZ1</td><td>Normal endometrial stromal cells; cancer cells</td><td>RNA trans-splicing assay; no chromosomal translocation</td><td>Science (2008)</td><td><a href="https://www.science.org/doi/10.1126/science.1156725" target="_blank">Open Paper</a></td></tr>
+        <tr><td>PAX3-FOXO1</td><td>Normal skeletal muscle cells (during differentiation); pluripotent cells to skeletal muscle</td><td>Transient expression, overexpression studies; no t(2;13) translocation</td><td>Cancer Discov (2013); Trends Cancer (2016)</td><td><a href="https://aacrjournals.org/cancerdiscovery/article/3/12/1394/3727/A-Chimeric-RNA-Characteristic-of-Rhabdomyosarcoma-in" target="_blank">Open Paper</a></td></tr>
+        <tr><td>CTBS-GNG5</td><td>Multiple non-neoplastic tissues/cell lines (70 samples from 15 types)</td><td>RT-PCR, Sanger sequencing, Western blot, LC-MS for chimeric peptides</td><td>Nucleic Acids Res (2016)</td><td><a href="https://academic.oup.com/nar/article/44/6/2859/2499453" target="_blank">Open Paper</a></td></tr>
+        <tr><td>CTNNBIP1-CLSTN1</td><td>Multiple non-neoplastic tissues/cell lines</td><td>RT-PCR, Sanger sequencing, Western blot, siRNA knockdown, qRT-PCR</td><td>Nucleic Acids Res (2016)</td><td><a href="https://academic.oup.com/nar/article/44/6/2859/2499453" target="_blank">Open Paper</a></td></tr>
+        <tr><td>USP9Y-TTTY15</td><td>Normal tissues</td><td>Cis-splicing detection (intergenic)</td><td>Trends Cancer (2016)</td><td><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5305119/" target="_blank">Open Paper</a></td></tr>
+        <tr><td>RRM2-C2orf48</td><td>Colorectal cancer cell lines: HCT8, SW620, SW480, Colo205, Caco-2, HCT116</td><td>RT-PCR, Sanger sequencing</td><td>Cancer Letters (2020)</td><td><a href="https://www.sciencedirect.com/science/article/pii/S0304383520302998" target="_blank">Open Paper</a></td></tr>
+        <tr><td>UBA1-CDK16</td><td>Blood</td><td>RT-PCR, Sanger sequencing</td><td>bioRxiv (2024)</td><td><a href="https://pubmed.ncbi.nlm.nih.gov/38405903/" target="_blank">Open Paper</a></td></tr>
+        <tr><td>SLC2A11-MIF</td><td>Colorectal cancer</td><td>RT-PCR, Sanger sequencing</td><td>IN PROGRESS</td><td>IN PROGRESS</td></tr>
+        <tr><td>ODF3B-SOC2</td><td>COVID-19 patient blood</td><td>RT-PCR, Sanger sequencing</td><td>Genes & Diseases (2025)</td><td><a href="https://www.sciencedirect.com/science/article/pii/S2352304224001454" target="_blank">Open Paper</a></td></tr>
+        <tr><td>TYMP-SOC2</td><td>COVID-19 patient blood</td><td>RT-PCR, Sanger sequencing</td><td>Genes & Diseases (2025)</td><td><a href="https://www.sciencedirect.com/science/article/pii/S2352304224001454" target="_blank">Open Paper</a></td></tr>
+        <tr><td>DHX9-NPL</td><td>COVID-19 patient blood</td><td>RT-PCR, Sanger sequencing</td><td>Genes & Diseases (2025)</td><td><a href="https://www.sciencedirect.com/science/article/pii/S2352304224001454" target="_blank">Open Paper</a></td></tr>
+        <tr><td>ISCA1-C9orf153</td><td>COVID-19 patient blood</td><td>RT-PCR, Sanger sequencing</td><td>Genes & Diseases (2025)</td><td><a href="https://www.sciencedirect.com/science/article/pii/S2352304224001454" target="_blank">Open Paper</a></td></tr>
+        <tr><td>KLF1-DNASE2</td><td>COVID-19 patient blood</td><td>RT-PCR, Sanger sequencing</td><td>Genes & Diseases (2025)</td><td><a href="https://www.sciencedirect.com/science/article/pii/S2352304224001454" target="_blank">Open Paper</a></td></tr>
+        <tr><td>LMAN2-MXD3</td><td>COVID-19 patient blood</td><td>RT-PCR, Sanger sequencing</td><td>Genes & Diseases (2025)</td><td><a href="https://www.sciencedirect.com/science/article/pii/S2352304224001454" target="_blank">Open Paper</a></td></tr>
+        <tr><td>NBR1-TMEM106A</td><td>COVID-19 patient blood</td><td>RT-PCR, Sanger sequencing</td><td>Genes & Diseases (2025)</td><td><a href="https://www.sciencedirect.com/science/article/pii/S2352304224001454" target="_blank">Open Paper</a></td></tr>
+        <tr><td>PFKFB3-LINC02649</td><td>COVID-19 patient blood</td><td>RT-PCR, Sanger sequencing</td><td>Genes & Diseases (2025)</td><td><a href="https://www.sciencedirect.com/science/article/pii/S2352304224001454" target="_blank">Open Paper</a></td></tr>
+        <tr><td>TSPO2-APOBEC2</td><td>COVID-19 patient blood</td><td>RT-PCR, Sanger sequencing</td><td>Genes & Diseases (2025)</td><td><a href="https://www.sciencedirect.com/science/article/pii/S2352304224001454" target="_blank">Open Paper</a></td></tr>
+        <tr><td>ZNF292-PNRC1</td><td>COVID-19 patient blood</td><td>RT-PCR, Sanger sequencing</td><td>Genes & Diseases (2025)</td><td><a href="https://www.sciencedirect.com/science/article/pii/S2352304224001454" target="_blank">Open Paper</a></td></tr>
+        <!-- The remaining 30+ fusions from the 2016 NAR paper are grouped -->
+        <tr><td>ADSL-SGSM3, AZGP1-GJC3, CIRBP-C19orf24, CTSC-RAB38, EEF1DP3-FRY, FAM175A-HELQ, GKAP1-KIF27, HACL1-COLQ, KANSL1-ARL17A/B, LINC00680-GUSBP4, METTL10-FAM53B, NOTCH2NL-NBPF10, PRKAA1-TTC33, SCNN1A-TNFRSF1A, SEPT7P2-PSPH, SIDT2-TAGLN, SLC29A1-HSP90AB1, SLC35A3-HIAT1, SLC39A1-CRTC2, SMG5-PAQR6, SMURF2P1-LRRC37BP1, TIMM23B-LINC00843, UBA2-WTIP, VAMP1-CD27-AS1, VPS45-PLEKHO1, WRB-SH3BGR, EEF1D-NAPRT1</td><td>Multiple non-neoplastic tissues (70 samples)</td><td>RT-PCR, Sanger sequencing</td><td>Nucleic Acids Res (2016)</td><td><a href="https://academic.oup.com/nar/article/44/6/2859/2499453" target="_blank">Open Paper + Supplementary</a></td></tr>
+        <tr><td>BOLA2-SMG1P6</td><td>HEK293</td><td>RT-PCR, Sanger sequencing</td><td>IN PROGRESS</td><td>IN PROGRESS</td></tr>
+        <tr><td>POLA2-CDC42EP2</td><td>HEK294</td><td>RT-PCR, Sanger sequencing</td><td>IN PROGRESS</td><td>IN PROGRESS</td></tr>
+        <tr><td>DMC1-DDX19</td><td>HEK295</td><td>RT-PCR, Sanger sequencing</td><td>IN PROGRESS</td><td>IN PROGRESS</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/simple-datatables@9.0.0"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      new simpleDatatables.DataTable("#fusionTable", {
+        perPage: 25,
+        perPageSelect: [10, 25, 50, 100, "All"],
+        searchable: true,
+        fixedHeight: false,
+        labels: {
+          placeholder: "Search fusion, tissue, method, year..."
+        }
+      });
+    });
+  </script>
+</body>
+</html>
